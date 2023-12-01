@@ -1,42 +1,45 @@
 body {
-margin: 0px;
-padding: 0px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 .header{
-padding-left: 5%;
-padding-left: 5%;
-margin-bottom: 5px;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+position: fixed;
+display: block;
+background-color: black;
+color: white;
 }
 
 .course-title {
   font-family: serif;
-  font-size: 3vw;
+  font-size: 20px;
   margin: 0px;
 }
 
 .page-title {
-  font-size: 2vw;
+  margin: 0px 0px 0px 10%;
+  font-size: 15px;
   margin: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.moving-section {
-margin-left: 5%;
-margin-right: 5%;
+.main-body{
+  margin: 0px 10% 0px 10%;
+  padding: 0px 0px 0px 0px;
 }
 
-.slideshow-container {
-  margin: auto;
+.page-banner-container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: black;
+}
+
+.page-banner{
   width: 100%;
-}
-
-.mySlides {
-  display: none;
-}
-
-img, video{
-  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .info-container {
@@ -47,27 +50,15 @@ img, video{
   border-radius: 5px;
 }
 
-.info {
-font-size: 3vw;
+.info,
+li {
+font-size: 20px;
 }
 
 button {
-background-color: rgb(29, 161, 242);
+background-color: deepskyblue;
 border-style: none;
-border-radius: 10px;
-font-size: 3vw;
+border-radius: 5px;
+font-size: 20px;
 padding: 5px;
-}
-
-.footer {
-background-color: gray;
-margin: 0px;
-padding: 20px;
-}
-
-.business-name {
-  margin: 0px;
-  text-align: center;
-  font-size: 3vw;
-  font-family: 'Times New Roman', Times, serif;
 }
