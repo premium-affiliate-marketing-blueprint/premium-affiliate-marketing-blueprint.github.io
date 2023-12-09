@@ -1,0 +1,156 @@
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.header {
+padding: 0px 0px 0px 5%;
+display: flex;
+align-items: center;
+background-color: green;
+}
+
+.business-name {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 3.5VW;
+color: white;
+}
+
+.main-body {
+padding: 0px 5% 0px 5%;
+}
+
+.about-me-container {
+margin: 0px;
+}
+
+.about-me-title-container {
+  background-color: gren;
+  margin: 0px;
+}
+.about-me-title,
+.training-title,
+.testimony-title {
+color: black;
+font-size: 3vw;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 20px 0px 0px 0px;
+}
+
+.about-me-message-container {
+margin: 0px;
+border: 0px;
+border-style: solid;
+border-color: green;
+background-color: lightgray1;
+}
+
+.about-me-message,
+.training-description {
+  margin: 0px;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.training-container {
+  border: 0px;
+  border-style: solid;
+  border-color: green;
+  margin: 20px 0px 0px 0px;
+}
+
+.training-title-container {
+background-color: gren;
+}
+
+.training-detail-container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  background-color: lightgray1;
+}
+
+.training-image-container {
+  width: 40%;
+}
+
+.training-image {
+  width: 100%;
+}
+
+.course-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: start;
+}
+
+.training-button {
+padding: 5px;
+font-size: 2vw;
+width: 25vw;
+border: 0px;
+border-radius: 5px;
+background-color: green;
+color: white;
+}
+
+.testimony-image-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.testimony-image {
+  width: 100%;
+}
+
+.training-container2 {
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 20px;
+  margin: 20px 25% 20px 25%;
+  padding: 0px;
+}
+
+.hey-section {
+  background-color: green;
+  color: white;
+  margin: 0px 0px 10px 0px;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 2.5vw;
+}
+
+.note2 {
+  margin: 5px;
+  padding: 0px;
+  font-size: 2.5vw;
+}
+
+.training-button2 {
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  font-size: 2vw;
+  width: 25vw;
+  border: 0px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: green;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+.this-year {
+  font-size: 1.75vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
