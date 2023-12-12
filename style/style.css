@@ -1,0 +1,121 @@
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+img,
+video {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 10% 0px 10%;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+
+}
+
+.header-image {
+width: 15vw;
+}
+
+.page-title-container {
+display: flex;
+flex-direction: column;
+flex: 1;
+padding: 0px 0px 0px 2vw;
+}
+
+.course-title {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 4VW;
+  font-weight: 750;
+  color: goldenrod;
+  font-family: 'arial';
+}
+
+.header-hr{
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.page-title {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 3vw;
+  font-family: 'Arial';
+  color: black;
+  font-weight: lighter;
+}
+
+.main-body{
+  margin: 0px 5% 0px 5%;
+  padding: 0px 0px 0px 0px;
+}
+
+
+.section-container {
+  margin: 20px 0px 20px 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.section-image-container {
+width: 40%;
+}
+
+.section-image {
+  width: 100%;
+}
+
+.section-details-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+}
+
+.section-details {
+  font-size: 3vw;
+  font-family: 'Arial';
+  font-weight: lighter;
+  margin: 0px;  
+  padding: 0px 0px 0px 0px;
+}
+
+button {
+background-color: rgb(120, 111, 82);
+font-family: 'Arial';
+font-weight: bold;
+color: white;
+border-style: none;
+border-radius: 1vw;
+font-size: 3vw;
+padding: 5px;
+margin: 0px;
+text-align: left;
+}
+
+.footer {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-info {
+  margin: 0px;
+  padding: 0px;
+  font-size: 2vw;
+  font-weight: bold;
+  color: goldenrod;
+}
